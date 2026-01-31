@@ -4,6 +4,7 @@ author = 'Tetsuo Koyama'
 
 extensions = [
     'sphinx_revealjs',
+    'atsphinx.stlite',
 ]
 
 html_theme = 'sphinx_revealjs'

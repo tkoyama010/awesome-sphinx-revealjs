@@ -11,6 +11,7 @@ requires-python = ">=3.8"
 dependencies = [
     "sphinx>=5.0",
     "sphinx-revealjs>=2.0.0",
+    "atsphinx-stlite",
 ]
 
 [project.optional-dependencies]
