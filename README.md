@@ -1,50 +1,16 @@
 # Awesome sphinx-revealjs [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome sphinx-revealjs resources, extensions, and examples
+> A curated list of awesome sphinx-revealjs examples and resources
 
-[sphinx-revealjs](https://github.com/attakei/sphinx-revealjs) is a Sphinx extension that enables you to generate reveal.js presentations from reStructuredText or Markdown. This list focuses on resources, tools, and examples for creating beautiful, interactive presentations with sphinx-revealjs.
+[sphinx-revealjs](https://github.com/attakei/sphinx-revealjs) is a Sphinx extension that enables you to generate reveal.js presentations from reStructuredText or Markdown.
 
 ## Contents
 
-- [Extensions](#extensions)
-- [Themes](#themes)
 - [Examples](#examples)
-- [Tools](#tools)
-- [Resources](#resources)
-- [Tutorials](#tutorials)
-
-## Extensions
-
-- [sphinx-revealjs](https://github.com/attakei/sphinx-revealjs) - Sphinx builder extension to output reveal.js presentations
-- [sphinx-stlite](https://github.com/whitphx/stlite) - Serverless Streamlit app in Sphinx documentation
-
-## Themes
-
-- Custom reveal.js themes compatible with sphinx-revealjs
 
 ## Examples
 
-- Real-world examples of presentations built with sphinx-revealjs
-
-## Tools
-
-- Tools and utilities for working with sphinx-revealjs presentations
-
-## Resources
-
-### Official Documentation
-
-- [sphinx-revealjs Documentation](https://sphinx-revealjs.readthedocs.io/)
-- [sphinx-revealjs GitHub Repository](https://github.com/attakei/sphinx-revealjs)
-- [reveal.js Documentation](https://revealjs.com/)
-
-### Articles & Tutorials
-
-- Blog posts and articles about creating presentations with sphinx-revealjs
-
-## Tutorials
-
-- Step-by-step guides for creating presentations with sphinx-revealjs
+- TBD
 
 ## Contributing
 
