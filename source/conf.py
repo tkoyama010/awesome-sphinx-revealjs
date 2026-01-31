@@ -18,3 +18,8 @@ revealjs_script_conf = {
     'center': True,
     'transition': 'slide',
 }
+
+# Stlite configuration - increase display height
+stlite_config = {
+    'height': '600px',
+}
