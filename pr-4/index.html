@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Sphinx Revealjs with Stlite Demo</title>
+    <link rel="stylesheet" type="text/css" href="_static/revealjs/dist/reveal.css?v=d4488b42" />
+    <link rel="stylesheet" href="_static/revealjs/dist/theme/black.css" type="text/css" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  </head><body>
+    <div class="reveal">
+        <div class="slides" role="main">
+            <section >
+<section >
+<h1>Sphinx Revealjs with Stlite Demo</h1>
+</section>
+</section>
+<section >
+<section >
+<h2>Introduction</h2>
+<p>Welcome to Sphinx Revealjs with Stlite!</p>
+<p>This presentation demonstrates:</p>
+<ul class="simple">
+<li><p>Sphinx Revealjs for slides</p></li>
+<li><p>Stlite for interactive Python</p></li>
+<li><p>GitHub Pages deployment</p></li>
+<li><p>PR preview functionality</p></li>
+</ul>
+</section>
+<section >
+<h2>Introduction</h2>
+
+</section>
+</section>
+<section >
+<section >
+<h2>What is Sphinx Revealjs?</h2>
+<p>Sphinx Revealjs is a Sphinx extension that allows you to create beautiful HTML presentations using Reveal.js.</p>
+<p>Features:</p>
+<ul class="simple">
+<li><p>Write slides in reStructuredText</p></li>
+<li><p>Easy to maintain with Sphinx</p></li>
+<li><p>Beautiful transitions</p></li>
+<li><p>Responsive design</p></li>
+</ul>
+</section>
+<section >
+<h2>What is Sphinx Revealjs?</h2>
+
+</section>
+</section>
+<section >
+<section >
+<h2>What is Stlite?</h2>
+<p>Stlite is a Python runtime that runs entirely in the browser using WebAssembly.</p>
+<p>Key benefits:</p>
+<ul class="simple">
+<li><p>No server required</p></li>
+<li><p>Interactive Python code</p></li>
+<li><p>Streamlit compatibility</p></li>
+<li><p>Works offline</p></li>
+</ul>
+</section>
+<section >
+<h2>What is Stlite?</h2>
+
+</section>
+</section>
+<section >
+<section >
+<h2>Interactive Python Demo</h2>
+</section>
+<section >
+<h2>Interactive Python Demo</h2>
+
+</section>
+</section>
+<section >
+<section >
+<h2>User Input Example</h2>
+</section>
+<section >
+<h2>User Input Example</h2>
+
+</section>
+</section>
+<section >
+<section >
+<h2>Interactive Chart</h2>
+</section>
+<section >
+<h2>Interactive Chart</h2>
+
+</section>
+</section>
+<section >
+<section >
+<h2>GitHub Pages Deployment</h2>
+<p>This presentation is automatically deployed to GitHub Pages using GitHub Actions.</p>
+<p>Workflow:</p>
+<ol class="arabic simple">
+<li><p>Push to main branch</p></li>
+<li><p>GitHub Actions builds the slides</p></li>
+<li><p>Deployed to GitHub Pages</p></li>
+<li><p>Available at your-repo.github.io</p></li>
+</ol>
+</section>
+<section >
+<h2>GitHub Pages Deployment</h2>
+
+</section>
+</section>
+<section >
+<section >
+<h2>PR Preview Feature</h2>
+<p>Pull requests automatically generate preview deployments!</p>
+<p>Benefits:</p>
+<ul class="simple">
+<li><p>Review changes before merging</p></li>
+<li><p>Share previews with team</p></li>
+<li><p>Test in production-like environment</p></li>
+<li><p>Automatic cleanup after merge</p></li>
+</ul>
+</section>
+<section >
+<h2>PR Preview Feature</h2>
+
+</section>
+</section>
+<section >
+<section >
+<h2>How It Works</h2>
+<p>PR Preview Process:</p>
+<ol class="arabic simple">
+<li><p>Open a pull request</p></li>
+<li><p>GitHub Actions builds preview</p></li>
+<li><p>Deploys to <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> branch with PR prefix</p></li>
+<li><p>Comment added with preview URL</p></li>
+<li><p>Preview auto-removed when PR closes</p></li>
+</ol>
+</section>
+<section >
+<h2>How It Works</h2>
+
+</section>
+</section>
+<section >
+<section >
+<h2>Getting Started</h2>
+<p>To use this template:</p>
+<pre data-id="getting-started"><code data-trim data-noescape class="bash"># Clone the repository
+git clone your-repo-url
+
+# Install dependencies
+pip install -e .
+
+# Build slides
+sphinx-build -b revealjs source build
+
+# Open build/index.html</code></pre>
+</section>
+<section >
+<h2>Getting Started</h2>
+
+</section>
+</section>
+<section >
+<section >
+<h2>Customization</h2>
+<p>Edit <code class="docutils literal notranslate"><span class="pre">source/conf.py</span></code> to customize:</p>
+<ul class="simple">
+<li><p>Theme (black, white, league, sky, etc.)</p></li>
+<li><p>Transitions (slide, fade, convex, etc.)</p></li>
+<li><p>Controls and navigation</p></li>
+<li><p>Plugins and extensions</p></li>
+</ul>
+</section>
+<section >
+<h2>Customization</h2>
+
+</section>
+</section>
+<section >
+<section >
+<h2>Adding Content</h2>
+<p>Create new slides with:</p>
+<pre data-id="adding-content"><code data-trim data-noescape class="rst">.. revealjs-break::
+
+Your Slide Title
+================
+
+Your content here</code></pre>
+<p>Supports:</p>
+<ul class="simple">
+<li><p>Images, code blocks, tables</p></li>
+<li><p>Math equations</p></li>
+<li><p>Custom HTML</p></li>
+<li><p>Embedded content</p></li>
+</ul>
+</section>
+<section >
+<h2>Adding Content</h2>
+
+</section>
+</section>
+<section >
+<section >
+<h2>Thank You!</h2>
+<p>Questions?</p>
+<hr class="docutils" />
+<p>Repository: <a class="reference external" href="https://github.com/tkoyama010/awesome-sphinx-revealjs">https://github.com/tkoyama010/awesome-sphinx-revealjs</a></p>
+<p>Documentation: <a class="reference external" href="https://sphinx-revealjs.readthedocs.io/">https://sphinx-revealjs.readthedocs.io/</a></p>
+</section>
+
+        </div>
+    </div>
+    
+    <script src="_static/revealjs/dist/reveal.js"></script>
+    
+    
+      
+    
+    <script>
+        var revealjsConfig = new Object();
+        Object.assign(revealjsConfig, {"controls": true, "progress": true, "history": true, "center": true, "transition": "slide", "scrollActivationWidth": null});
+        
+        
+        
+          revealjsConfig.plugins = [
+            
+          ];
+        
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize(revealjsConfig);
+    </script>
+
+  </body>
+</html>
