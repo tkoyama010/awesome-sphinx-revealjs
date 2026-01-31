@@ -74,7 +74,45 @@
 <section >
 <section >
 <h2>Interactive Python Demo</h2>
-</section>
+<div class="stlite-wrapper"><iframe class="stlite-frame" srcdoc="&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;meta
+      name=&quot;viewport&quot;
+      content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;
+    /&gt;
+    &lt;title&gt;Stlite App&lt;/title&gt;
+    &lt;link
+      rel=&quot;stylesheet&quot;
+      href=&quot;https://cdn.jsdelivr.net/npm/@stlite/browser@latest/build/stlite.css&quot;
+    /&gt;
+    &lt;script
+      type=&quot;module&quot;
+      src=&quot;https://cdn.jsdelivr.net/npm/@stlite/browser@latest/build/stlite.js&quot;
+    &gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;streamlit-app&gt;
+      &lt;app-file name=&quot;streamlit_app.py&quot; entrypoint&gt;
+import streamlit as st
+import pandas as pd
+
+st.title(&quot;Interactive Data Demo&quot;)
+
+# Create a simple dataframe
+df = pd.DataFrame({
+    &#x27;first column&#x27;: [1, 2, 3, 4],
+    &#x27;second column&#x27;: [10, 20, 30, 40]
+})
+
+st.write(&quot;Here&#x27;s our first attempt at using data:&quot;)
+st.write(df)
+      &lt;/app-file&gt;
+    &lt;/streamlit-app&gt;
+  &lt;/body&gt;
+&lt;/html&gt;"></iframe></div></section>
 <section >
 <h2>Interactive Python Demo</h2>
 
@@ -83,7 +121,36 @@
 <section >
 <section >
 <h2>User Input Example</h2>
-</section>
+<div class="stlite-wrapper"><iframe class="stlite-frame" srcdoc="&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;meta
+      name=&quot;viewport&quot;
+      content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;
+    /&gt;
+    &lt;title&gt;Stlite App&lt;/title&gt;
+    &lt;link
+      rel=&quot;stylesheet&quot;
+      href=&quot;https://cdn.jsdelivr.net/npm/@stlite/browser@latest/build/stlite.css&quot;
+    /&gt;
+    &lt;script
+      type=&quot;module&quot;
+      src=&quot;https://cdn.jsdelivr.net/npm/@stlite/browser@latest/build/stlite.js&quot;
+    &gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;streamlit-app&gt;
+      &lt;app-file name=&quot;streamlit_app.py&quot; entrypoint&gt;
+import streamlit as st
+
+name = st.text_input(&#x27;Your name&#x27;)
+st.write(f&#x27;Hello, {name or &quot;world&quot;}!&#x27;)
+      &lt;/app-file&gt;
+    &lt;/streamlit-app&gt;
+  &lt;/body&gt;
+&lt;/html&gt;"></iframe></div></section>
 <section >
 <h2>User Input Example</h2>
 
@@ -92,7 +159,46 @@
 <section >
 <section >
 <h2>Interactive Chart</h2>
-</section>
+<div class="stlite-wrapper"><iframe class="stlite-frame" srcdoc="&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;meta
+      name=&quot;viewport&quot;
+      content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;
+    /&gt;
+    &lt;title&gt;Stlite App&lt;/title&gt;
+    &lt;link
+      rel=&quot;stylesheet&quot;
+      href=&quot;https://cdn.jsdelivr.net/npm/@stlite/browser@latest/build/stlite.css&quot;
+    /&gt;
+    &lt;script
+      type=&quot;module&quot;
+      src=&quot;https://cdn.jsdelivr.net/npm/@stlite/browser@latest/build/stlite.js&quot;
+    &gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;streamlit-app&gt;
+      &lt;app-file name=&quot;streamlit_app.py&quot; entrypoint&gt;
+import streamlit as st
+import matplotlib.pyplot as plt
+import numpy as np
+
+size = st.slider(&quot;Sample size&quot;, 100, 1000)
+arr = np.random.normal(1, 1, size=size)
+fig, ax = plt.subplots()
+ax.hist(arr, bins=20)
+st.pyplot(fig)
+      &lt;/app-file&gt;
+      &lt;app-requirements&gt;
+        
+        matplotlib
+        
+      &lt;/app-requirements&gt;
+    &lt;/streamlit-app&gt;
+  &lt;/body&gt;
+&lt;/html&gt;"></iframe></div></section>
 <section >
 <h2>Interactive Chart</h2>
 
