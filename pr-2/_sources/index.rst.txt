@@ -49,34 +49,51 @@ Key benefits:
 Interactive Python Demo
 =======================
 
-.. raw:: html
-
-   <iframe src="https://edit.share.stlite.net/" width="100%" height="500" frameborder="0"></iframe>
-
-Try the interactive Python environment powered by Stlite!
-
-.. revealjs-break::
-
-Stlite Code Example
-====================
-
-Here's a simple example you can run in Stlite:
-
-.. code-block:: python
+.. stlite::
 
    import streamlit as st
    import pandas as pd
-   import numpy as np
 
    st.title("Interactive Data Demo")
    
-   # Generate sample data
-   data = pd.DataFrame({
-       'x': np.arange(10),
-       'y': np.random.randn(10)
+   # Create a simple dataframe
+   df = pd.DataFrame({
+       'first column': [1, 2, 3, 4],
+       'second column': [10, 20, 30, 40]
    })
    
-   st.line_chart(data.set_index('x'))
+   st.write("Here's our first attempt at using data:")
+   st.write(df)
+
+.. revealjs-break::
+
+User Input Example
+==================
+
+.. stlite::
+
+   import streamlit as st
+   
+   name = st.text_input('Your name')
+   st.write(f'Hello, {name or "world"}!')
+
+.. revealjs-break::
+
+Interactive Chart
+=================
+
+.. stlite::
+   :requirements: matplotlib
+
+   import streamlit as st
+   import matplotlib.pyplot as plt
+   import numpy as np
+
+   size = st.slider("Sample size", 100, 1000)
+   arr = np.random.normal(1, 1, size=size)
+   fig, ax = plt.subplots()
+   ax.hist(arr, bins=20)
+   st.pyplot(fig)
 
 .. revealjs-break::
 
