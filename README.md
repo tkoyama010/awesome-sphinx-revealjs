@@ -1,8 +1,8 @@
-# Awesome Sphinx revealjs [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome sphinx-revealjs [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome Sphinx revealjs resources, extensions, and examples
+> A curated list of awesome sphinx-revealjs resources, extensions, and examples
 
-[Sphinx](https://www.sphinx-doc.org/) is a powerful documentation generator, and [revealjs](https://revealjs.com/) is a modern HTML presentation framework. This list focuses on combining these tools to create beautiful, interactive presentations from documentation.
+[sphinx-revealjs](https://github.com/attakei/sphinx-revealjs) is a Sphinx extension that enables you to generate reveal.js presentations from reStructuredText or Markdown. This list focuses on resources, tools, and examples for creating beautiful, interactive presentations with sphinx-revealjs.
 
 ## Contents
 
@@ -20,30 +20,31 @@
 
 ## Themes
 
-- Custom reveal.js themes for Sphinx presentations
+- Custom reveal.js themes compatible with sphinx-revealjs
 
 ## Examples
 
-- Real-world examples of presentations built with Sphinx and reveal.js
+- Real-world examples of presentations built with sphinx-revealjs
 
 ## Tools
 
-- Tools and utilities for working with Sphinx reveal.js presentations
+- Tools and utilities for working with sphinx-revealjs presentations
 
 ## Resources
 
 ### Official Documentation
 
-- [Sphinx Documentation](https://www.sphinx-doc.org/)
+- [sphinx-revealjs Documentation](https://sphinx-revealjs.readthedocs.io/)
+- [sphinx-revealjs GitHub Repository](https://github.com/attakei/sphinx-revealjs)
 - [reveal.js Documentation](https://revealjs.com/)
 
 ### Articles & Tutorials
 
-- Blog posts and articles about creating presentations with Sphinx
+- Blog posts and articles about creating presentations with sphinx-revealjs
 
 ## Tutorials
 
-- Step-by-step guides for creating presentations
+- Step-by-step guides for creating presentations with sphinx-revealjs
 
 ## Contributing
 
