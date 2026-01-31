@@ -183,6 +183,6 @@ Questions?
 
 ----
 
-Repository: https://github.com/your-username/awesome-sphinx-revealjs
+Repository: https://github.com/tkoyama010/awesome-sphinx-revealjs
 
 Documentation: https://sphinx-revealjs.readthedocs.io/
