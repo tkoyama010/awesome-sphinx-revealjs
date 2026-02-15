@@ -50,6 +50,7 @@ Interactive Python Demo
 =======================
 
 .. stlite::
+   :height: 500
 
    import streamlit as st
    import pandas as pd
@@ -71,6 +72,7 @@ User Input Example
 ==================
 
 .. stlite::
+   :height: 400
 
    import streamlit as st
    
@@ -84,6 +86,7 @@ Interactive Chart
 
 .. stlite::
    :requirements: matplotlib
+   :height: 600
 
    import streamlit as st
    import matplotlib.pyplot as plt
